@@ -1,37 +1,47 @@
 body {
     background-color: rgb(245, 192, 192);
-    margin: 0; /* Reset default body margin */
+    margin: 0;
+    padding: 0; /* Add padding to prevent content from touching the edges */
 }
 
 h1 {
     text-align: center;
-    margin-top: 20px; /* Add some space from the top */
+    margin-top: 20px;
 }
 
 img {
-    display: block; /* Ensure image is block-level */
-    margin: 0 auto; /* Center the image */
-    max-width: 100%; /* Make sure image doesn't overflow its container */
-    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 
 button {
-    height: 10vh; /* Adjust height for better fit on mobile */
-    width: 40vw; /* Adjust width for better fit on mobile */
-    position: relative; /* Change to relative positioning */
-    margin: 10px auto; /* Center the button horizontally with some space between buttons */
+    height: 10vh;
+    width: 40vw;
+    margin: 10px auto;
     border-radius: 13px;
     border-color: aliceblue;
     background-color: rgba(221, 169, 169, 0.44);
     color: beige;
-    display: block; /* Ensure buttons are block-level */
+    display: block;
 }
 
-/* Adjustments for "Yes" and "No" buttons */
 #y {
-    margin-right: 5px; /* Add some space between buttons */
+    margin-right: 5px;
 }
 
 #n {
-    margin-left: 5px; /* Add some space between buttons */
+    margin-left: 5px;
+}
+
+/* Media query for devices with screen width less than or equal to 600px */
+@media (max-width: 600px) {
+    img {
+        margin-left: 0;
+    }
+
+    button {
+        width: 80%;
+    }
 }
