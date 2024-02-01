@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="heart.png" type="img/x-icon">
+    <title >date</title>
+</head>
+<body>
+    <h1>Wanna go out on sunday?</h1>
+    <img src="plz.gif" alt="date?">
+    <form action="html2.html">
+        <button id="y" onclick="">Yes</button>
+    </form>
+    <button id="n">No</button>
+    
+    
+    <script>
+        const button = document.getElementById('n');
+        button.addEventListener('mouseover', () => {
+            const newX = Math.random() * (window.innerWidth - button.offsetWidth);
+            const newY = Math.random() * (window.innerHeight - button.offsetHeight);
+            button.style.left = newX + 'px';
+            button.style.top = newY + 'px';
+        });
+
+    </script>
+</body>
+</html>

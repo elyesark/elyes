@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(245, 192, 192);
+}
+h1{
+    text-align: center;
+}
+img{
+    margin-left: 36%;
+    height: 60vh;
+}
+button{
+    height: 6vh;
+    width: 6%;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    border-radius: 13px ;
+    border-color: aliceblue;
+    background-color:rgba(221, 169, 169, 0.44) ;
+    color: beige;
+}
+
+#y{
+    left: 42%;
+}
+#n{
+    left: 51%;
+}
+
+
+    
