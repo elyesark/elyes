@@ -5,8 +5,9 @@ body{
     padding:0;
 }
 h1{
-    margin-left:50%;
-    margin-top:20px;
+    position:absolute;
+    left:50%;
+    top:20px;
 }
 img{
     margin-left: 36%;
@@ -33,11 +34,8 @@ button{
     width: 60vw;
 }
 @media (max-width: 600px) {
-    img {
-        margin-left: 0;
-    }
 
     button {
-        width: 80%;
+        width: 80vw;
     }
 }
