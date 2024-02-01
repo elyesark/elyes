@@ -2,6 +2,8 @@ body{
     background-color: rgb(245, 192, 192);
     margin-top:0;
     margin-bottom:0;
+    margin-left:0;
+    margin-right:0;
     padding:0;
 }
 h1{
@@ -39,7 +41,7 @@ button {
 
 @media (max-width: 600px) {
     button {
-        width: 3vw; /* Adjust button width for smaller screens */
+        width: 3%; /* Adjust button width for smaller screens */
     }
 
     #y {
