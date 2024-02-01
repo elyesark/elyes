@@ -15,7 +15,7 @@ img{
 }
 
 @media (max-width: 600px) {
-
+    display:flex;
     position: absolute;
     bottom: 10%;
     left: 50%;
@@ -26,13 +26,13 @@ img{
 }
     #y{
     left:50%;
-    height: 10vh;
-    width: 60vw;
+    height: 7vh;
+    width: 30vw;
 }
 #n{
     left: 54%;
-    height: 10vh;
-    width: 60vw;
+    height: 7vh;
+    width: 30vw;
 }
     
 
