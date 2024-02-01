@@ -1,16 +1,19 @@
 body{
     background-color: rgb(245, 192, 192);
+    margin:0;
+    padding:0;
 }
 h1{
     text-align: center;
+    margin-top:20px;
 }
 img{
     margin-left: 36%;
-    height: 60vh;
+    height: 50vh;
 }
 button{
-    height: 6vh;
-    width: 6vw;
+    height: 10vh;
+    width: 10vw;
     position: absolute;
     bottom: 20%;
     left: 50%;
