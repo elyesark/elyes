@@ -6,7 +6,7 @@ body{
 }
 h1{
     position:absolute;
-    left:50%;
+    left:47%;
     top:20px;
 }
 img{
@@ -36,6 +36,6 @@ button{
 @media (max-width: 600px) {
 
     button {
-        width: 80vw;
+        width: 50vw;
     }
 }
