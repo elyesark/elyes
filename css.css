@@ -49,7 +49,7 @@ button {
     }
 
     #n {
-        left: 60%; /* Adjust left position for smaller screens */
+        left: 63%; /* Adjust left position for smaller screens */
         width: 8vw;
     }
 }
