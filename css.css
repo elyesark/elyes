@@ -32,3 +32,12 @@ button{
     height: 10vh;
     width: 60vw;
 }
+@media (max-width: 600px) {
+    img {
+        margin-left: 0;
+    }
+
+    button {
+        width: 80%;
+    }
+}
