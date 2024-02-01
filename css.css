@@ -15,7 +15,7 @@ img{
 }
 
 @media (max-width: 600px) {
-    display:flex;
+    display:inline-block;
     position: absolute;
     bottom: 10%;
     left: 50%;
