@@ -5,7 +5,7 @@ body{
     padding:0;
 }
 h1{
-    text-align: center;
+    margin-left:50%;
     margin-top:20px;
 }
 img{
@@ -14,9 +14,9 @@ img{
 }
 button{
     height: 10vh;
-    width: 20vw;
+    width: 60vw;
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     left: 50%;
     border-radius: 13px ;
     border-color: aliceblue;
