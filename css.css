@@ -8,13 +8,13 @@ body{
 }
 h1{
     position:absolute;
-    left:40%;
+    left:20%;
     top:20px;
 }
 img{
-    margin-left: 36%;
+    margin-left: 16%;
     height: 50vh;
-    margin-top:45%
+    margin-top:55%
 }
 
 button {
@@ -27,26 +27,29 @@ button {
     border-color: aliceblue;
     background-color: rgba(221, 169, 169, 0.44);
     color: beige;
+    
+}
+
+#y {
+    left: 50%; /* Adjust left position */
     height: 5vh;
     width: 6vw;
 }
 
-#y {
-    left: 35%; /* Adjust left position */
-}
-
 #n {
     left: 55%; /* Adjust left position */
+    height: 5vh;
+    width: 6vw;
 }
 
 @media (max-width: 600px) {
     #y {
-        left: 80%; /* Adjust left position for smaller screens */
-        width: 3vw;
+        left: 50%; /* Adjust left position for smaller screens */
+        width: 4vw;
     }
 
     #n {
-        left: 88%; /* Adjust left position for smaller screens */
-        width: 3vw;
+        left: 56%; /* Adjust left position for smaller screens */
+        width: 4vw;
     }
 }
