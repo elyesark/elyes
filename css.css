@@ -35,7 +35,22 @@ button{
 }
 @media (max-width: 600px) {
 
-    button {
-        width: 50vw;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    border-radius: 13px ;
+    border-color: aliceblue;
+    background-color:rgba(221, 169, 169, 0.44) ;
+    color: beige;
+    #y{
+    left:50%;
+    height: 10vh;
+    width: 60vw;
+}
+#n{
+    left: 54%;
+    height: 10vh;
+    width: 60vw;
+}
     }
 }
