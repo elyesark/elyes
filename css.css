@@ -41,12 +41,12 @@ button {
 
 @media (max-width: 600px) {
     #y {
-        left: 50%; /* Adjust left position for smaller screens */
+        left: 80%; /* Adjust left position for smaller screens */
         width: 3vw;
     }
 
     #n {
-        left: 55%; /* Adjust left position for smaller screens */
+        left: 88%; /* Adjust left position for smaller screens */
         width: 3vw;
     }
 }
