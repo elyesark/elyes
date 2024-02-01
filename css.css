@@ -33,13 +33,13 @@ button {
 #y {
     left: 50%; /* Adjust left position */
     height: 5vh;
-    width: 6vw;
+    width: 8vw;
 }
 
 #n {
     left: 55%; /* Adjust left position */
     height: 5vh;
-    width: 6vw;
+    width: 8vw;
 }
 
 @media (max-width: 600px) {
