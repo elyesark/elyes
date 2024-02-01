@@ -13,8 +13,6 @@ img{
     height: 50vh;
 }
 button{
-    height: 10vh;
-    width: 60vw;
     position: absolute;
     bottom: 10%;
     left: 50%;
@@ -26,7 +24,11 @@ button{
 
 #y{
     left:50%;
+    height: 10vh;
+    width: 60vw;
 }
 #n{
     left: 54%;
+    height: 10vh;
+    width: 60vw;
 }
